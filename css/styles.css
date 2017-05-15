@@ -11,7 +11,29 @@ background-color: grey;
    height: 50px;
    width: 400px;
 }
+.men
+{
+   /*position: absolute;*/
+   height: 75px;
+   height: 75px;
+   z-index: 2001;
+top: 100px;
 
+}
+
+.men:hover
+{
+   height: 200px;
+   height: 200px;
+   transition: 0.7s ease;
+}
+
+.ul
+{
+position: absolute;
+   top: 50px;
+      z-index: 5000;
+}
 
 .container-fluid
 {
@@ -22,12 +44,12 @@ overflow-x: auto;
 /*overflow-y: auto;*/
 /*background-color: red;*/
 }
-::-webkit-scrollbar
+/*::-webkit-scrollbar
 {
    /*background-color: black;*/
    width:100%;
 
-}
+}*/
 .images
 {
    height: 50px;
@@ -60,7 +82,7 @@ transition-delay: 2s;
    position: fixed;
    z-index: 3000;
    background-color: black;
-   height: 50px;
+
 }
 #c1
 {
