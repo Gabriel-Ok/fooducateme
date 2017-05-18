@@ -23,9 +23,12 @@ top: 100px;
 .health
 {
    position: absolute;
-   left: 50px;
+   left: 40px;
    /*display: none;*/
    color: orange;
+   font-size: 110%;
+   font-weight: bold;
+   background-color: black;
 }
 
 
