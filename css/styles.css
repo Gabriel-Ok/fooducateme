@@ -1,51 +1,5 @@
-body
-{
-   /*background-image: url("../510867783.jpg");*/
-background-attachment: fixed;
-/*background-repeat: no-repeat;*/
-background-size: cover;
-background-color: grey;
-}
-.a1
-{
-   height: 50px;
-   width: 400px;
-}
-.men
-{
-   /*position: absolute;*/
-   height: 75px;
-   height: 75px;
-   z-index: 2001;
-top: 100px;
-
-}
-.health
-{
-   position: absolute;
-   left: 40px;
-   /*display: none;*/
-   color: orange;
-   font-size: 110%;
-   font-weight: bold;
-   background-color: black;
-}
 
 
-.men:hover
-{
-   height: 200px;
-   height: 200px;
-   transition: 0.7s ease;
-}
-
-
-.ul
-{
-position: absolute;
-   top: 50px;
-      z-index: 5000;
-}
 
 .container-fluid
 {
@@ -62,46 +16,23 @@ overflow-x: auto;
    width:100%;
 
 }*/
-.images
-{
-   height: 50px;
-   width: 50px;
-}
-#white
-{
-   /*left: 400px;*/
-   /*background-color: white;*/
-}
-#black
-{
-   /*background-color:black;*/
-   /*width: 2000px;
-   height: 50px;*/
-}
-div
-{
--webkit-transition-delay: 2s;
-transition-delay: 2s;
-}
+
+
+
+
 .col-sm-4
 {
 
    height:700px;
 /*background-color: blue;*/
 }
-#menubar
-{
-   position: fixed;
-   z-index: 3000;
-   background-color: black;
 
-}
 #c1
 {
    width: 1500px;
    height:600px;
    position: fixed;
-   z-index: 100;
+   z-index: 50;
 /*background-color: orange;*/
 /*opacity: 0;*/
 
@@ -112,46 +43,92 @@ transition-delay: 2s;
    position: relative;
    opacity: 0.6;
 }
-#c2
+
+.carousel-inner
 {
-   margin-left: 1500px;
-   width: 1500px;
-height: 600px;
-/*background-color: black;*/
-position: relative;
-z-index: 2000;
-/*opacity: 0;*/
+z-index: -200;
+   position: absolute;
 }
-@keyframes #c2 {
-   10%{background-color: red;}
-   50%{background-color:black; }
-}
-#c2{
-   /*background-color: red;*/
-   animation-name: #c2;
-animation-duration: 5s;
-animation-delay: 3s;
-}
-video
+.container
 {
-   z-index: -100;
-   position: fixed;
-   width: 100%;
-   height: 100%;
+   position: absolute;
+   z-index: 350;
 
 }
-#c3
+.li
 {
-   width: 1500px;
-   height: 600px;
-   background-color: blue;
-   /*opacity: 1;*/
-   position: relative;
-   z-index: 2000;
+   position: absolute;
+   font-size: 115%;
+   font-family: 'Pacifico', cursive;
+   color: black;
 }
-#p
+.col-sm-2
 {
-   /*opacity: 1;*/
+   height: 75px;
+   width: 130px;
+   margin: 40px;
+   background-color: 	#DEB887;
+}
+.col-sm-2:hover
+{
+   /*height: 230px;
+   width: 230px;*/
+   background-color: #A52A2A;
+   transition: 0.8s ease;
+
+}
+
+#a1
+{
+   /*background-image: url("../dining_bimini_people.jpg");*/
+   background-clip: border-box;
+
+}
+#a2
+{
+   /*background-image: url("../Avoiding-Junk-Food.jpg");*/
+}
+#a3
+{
+   /*background-image: url("../BBQFamily.jpg");*/
+}
+#a
+{
+
+height: 650px;
+   /*background-color: red;*/
+   background-image: url("../dining_bimini_people.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+#b
+{
+   height: 650px;
+   background-repeat: no-repeat;
+      background-size: cover;
+   /*background-color: blue;*/
+   background-image: url("../Avoiding-Junk-Food.jpg");
+}
+#c
+{
+   height: 650px;
+   background-repeat: no-repeat;
+      background-size: cover;
+   /*background-color: black;*/
+   background-image: url("../BBQFamily.jpg");
+}
+.p1
+{
+   left: 400px;
+   font-size: 300%;
+   font-family: fantasy;
+   font-style: italic;
+   font-weight: bold;
+   position: absolute;
    color: white;
 
+}
+ul
+{
+   list-style: none;
 }
