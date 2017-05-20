@@ -1,0 +1,87 @@
+ul
+{
+   list-style: none;
+}
+/*.container
+{
+   position: absolute;
+   z-index: 5500;
+
+}*/
+li
+{
+   font-family:'Pacifico', cursive;
+   color: black;
+}
+.col-sm-2
+{
+   height: 75px;
+   width: 130px;
+   margin: 30px;
+   background-color: 	#DEB887;
+}
+.col-sm-2:hover
+{
+   /*height: 230px;
+   width: 230px;*/
+   background-color: #A52A2A;
+   transition: 0.8s ease;
+
+}
+
+
+.out
+{
+color: white;
+   background-color: black;
+}
+.table
+{
+   /*background-image: url("../gettyimages-498315681.jpg");*/
+   /*background-repeat: no-repeat;*/
+   /*background-size: cover;*/
+   width: 350px;
+   height: 350px;
+   /*background-blend-mode: lighten;*/
+}
+
+.body
+{
+   /*background-color: grey;*/
+   background-image:  url("../health-meditation-for-health-backgrounds-powerpoint.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   /*background-size: contain;*/
+   /*background-position: center;*/
+}
+.h1
+{
+   font-family: 'Pacifico', cursive;
+   color: black;
+}
+label
+{
+   font-weight: bold;
+   font-family: 'Pacifico', cursive;
+
+}
+================================================================================================================================================
+/*.tb
+{
+   color: black;
+   font-weight: bold;
+   font-family: 'Pacifico', cursive;*/
+
+   /*background-color: black;*/
+   /*width: 500px;
+}*/
+==============================================================================================================================================================
+.nb
+{
+   color: white;
+}
+.container
+{
+   position: absolute;
+   z-index: 350;
+}
