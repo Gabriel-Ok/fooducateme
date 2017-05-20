@@ -92,6 +92,14 @@ z-index: -200;
 {
    /*background-image: url("../BBQFamily.jpg");*/
 }
+.overlay
+{
+   height: 600px;
+   background-color: 	#F0E68C;
+   z-index: 1000;
+   position: absolute;
+
+}
 #a
 {
 
@@ -108,6 +116,7 @@ height: 650px;
       background-size: cover;
    /*background-color: blue;*/
    background-image: url("../Avoiding-Junk-Food.jpg");
+   background-blend-mode: hue;
 }
 #c
 {
@@ -125,7 +134,7 @@ height: 650px;
    font-style: italic;
    font-weight: bold;
    position: absolute;
-   color: white;
+   color: black;
 
 }
 ul
